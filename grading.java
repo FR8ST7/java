@@ -23,7 +23,7 @@ public class grading {
             System.out.println("grade B");
         }
         else if(percentage>=70){
-            System.out.println("grade C");
+            System.out.println("grade C");  
         }
         else if(percentage>=60){
             System.out.println("grade D");
