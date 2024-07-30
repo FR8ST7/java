@@ -46,5 +46,6 @@ public class string_operation {
     System.out.println("no. of characters in paragraph:"+t);
     System.out.println("no. of spaces in a paragraph:"+s);
     System.out.println("no. of words in a paragraph:"+d);
+    sc.close();
 }
 }
