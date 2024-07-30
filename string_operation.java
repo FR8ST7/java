@@ -9,6 +9,7 @@ public class string_operation {
     int l=0;
     int L=0;
     int s=0;
+    int p=0;
     for(int i=0;i<x.length();i++){
         if(x.charAt(i)>='a' && x.charAt(i)<='z'){
            l++;
@@ -18,6 +19,9 @@ public class string_operation {
         }
         if(x.charAt(i) ==' '){
             s++;
+       }
+       if(x.charAt(i)== '.'){
+        p++;
        }
 
     }
@@ -38,6 +42,7 @@ public class string_operation {
         }
     }
     int t= l+L;
+    System.out.println("no. of lines in a paragraph:"+p);
     System.out.println("no. of characters in paragraph:"+t);
     System.out.println("no. of spaces in a paragraph:"+s);
     System.out.println("no. of words in a paragraph:"+d);
