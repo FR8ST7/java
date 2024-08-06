@@ -1,4 +1,3 @@
-import java.io.CharArrayReader;
 import java.util.Scanner;
 public class lowercase_to_uppercase {
     public static void main(String args[]){
@@ -13,7 +12,7 @@ public class lowercase_to_uppercase {
         }
             
         String s= new String(y);
-        System.out.println("new string:"+y);
+        System.out.println("new string:"+s);
         sc.close();
     }
     
