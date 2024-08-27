@@ -6,7 +6,7 @@ public class classes_objects{
     float cgpa;
     String specialization;
     String semester;
-    /* 
+
     public classes_objects(String name,int reg_no,String department,float cgpa,String specialization,String semester){
         this.name= name;
         this.reg_no= reg_no;
@@ -15,7 +15,7 @@ public class classes_objects{
         this.specialization= specialization;
         this.semester= semester;
     }
-        */
+    
     public String get(){
             return ("student name: " + name + "\n" +
                     "student reg_no: " + reg_no + "\n" +
@@ -43,6 +43,7 @@ public class classes_objects{
         String semester= sc.nextLine();
         classes_objects obj= new classes_objects(name,reg_no,department,cgpa,specialization,semester);
         System.out.println(obj.get());
+        sc.close();
     }
     
 }
