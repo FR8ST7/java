@@ -41,7 +41,7 @@ public class TollboothTest {
                     break;
                 case 'q':
                     tollbooth.display();
-                    return;  // Exits the main method and ends the program
+                    return;  
                 default:
                     System.out.println("Invalid input. Please try again.");
             }
